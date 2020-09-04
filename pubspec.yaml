@@ -44,6 +44,7 @@ dependencies:
   cloud_firestore: ^0.13.7
   md2_tab_indicator: ^1.0.2
   octo_image: ^0.2.1
+  connection_status_bar: ^1.1.4
 
 dev_dependencies:
 

@@ -100,6 +100,8 @@ class PostWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
+      mainAxisAlignment: MainAxisAlignment.start,
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Padding(
           padding: const EdgeInsets.only(
@@ -117,7 +119,7 @@ class PostWidget extends StatelessWidget {
                 ),
                 child: Container(
                   height: 25,
-                  width: MediaQuery.of(context).size.width * .3,
+                  width: MediaQuery.of(context).size.width * .4,
                   decoration: BoxDecoration(
                     color: Colors.black12,
                     borderRadius: BorderRadius.circular(5),

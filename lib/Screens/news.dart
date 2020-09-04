@@ -211,8 +211,8 @@ class _NewsScreenState extends State<NewsScreen> {
             ),
           ),
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.start,
-            crossAxisAlignment: CrossAxisAlignment.start,
+            // mainAxisAlignment: MainAxisAlignment.start,
+            // crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Card(
                 elevation: 3,
@@ -278,17 +278,17 @@ class _NewsScreenState extends State<NewsScreen> {
                 padding: const EdgeInsets.only(
                   top: 6,
                   left: 10.0,
+                  right: 10,
                   bottom: 18,
                 ),
                 child: Container(
                   height: 25,
-                  width: MediaQuery.of(context).size.width * .3,
                   decoration: BoxDecoration(
                     color: Colors.black12,
                     borderRadius: BorderRadius.circular(5),
                   ),
                   child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
+                    mainAxisAlignment: MainAxisAlignment.start,
                     children: [
                       Icon(
                         LineAwesomeIcons.clock_o,

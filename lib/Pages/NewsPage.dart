@@ -54,27 +54,27 @@ class NewsPage extends StatelessWidget {
           children: [
             TabsCategories(
               url:
-                  "https://www.bengalurufc.com/wp-json/wp/v2/posts?categories=152",
+                  "https://www.bengalurufc.com/wp-json/wp/v2/posts?categories=152&per_page=15",
             ),
             TabsCategories(
               url:
-                  "https://www.bengalurufc.com/wp-json/wp/v2/posts?categories=151",
+                  "https://www.bengalurufc.com/wp-json/wp/v2/posts?categories=151&per_page=15",
             ),
             TabsCategories(
               url:
-                  "https://www.bengalurufc.com/wp-json/wp/v2/posts?categories=232",
+                  "https://www.bengalurufc.com/wp-json/wp/v2/posts?categories=232&per_page=15",
             ),
             TabsCategories(
               url:
-                  "https://www.bengalurufc.com/wp-json/wp/v2/posts?categories=10",
+                  "https://www.bengalurufc.com/wp-json/wp/v2/posts?categories=10&per_page=15",
             ),
             TabsCategories(
               url:
-                  "https://www.bengalurufc.com/wp-json/wp/v2/posts?categories=304",
+                  "https://www.bengalurufc.com/wp-json/wp/v2/posts?categories=304&per_page=15",
             ),
             TabsCategories(
               url:
-                  "https://www.bengalurufc.com/wp-json/wp/v2/posts?categories=182",
+                  "https://www.bengalurufc.com/wp-json/wp/v2/posts?categories=182&per_page=15",
             ),
           ],
         ),

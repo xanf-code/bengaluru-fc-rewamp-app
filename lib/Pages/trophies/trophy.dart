@@ -133,9 +133,9 @@ class Trophies extends StatelessWidget {
 
   Padding middleWidget(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(left: 8.0, right: 8, top: 8),
+      padding: const EdgeInsets.only(left: 8.0, right: 8, top: 8,bottom: 8,),
       child: Container(
-        height: MediaQuery.of(context).size.height * .55,
+        //height: MediaQuery.of(context).size.height * .55,
         width: MediaQuery.of(context).size.width,
         child: Text(
           text,

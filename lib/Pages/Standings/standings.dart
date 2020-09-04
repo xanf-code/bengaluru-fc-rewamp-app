@@ -32,6 +32,7 @@ class _StandingsState extends State<Standings> {
     return DefaultTabController(
       length: 2,
       child: Scaffold(
+        backgroundColor: Colors.white,
         appBar: AppBar(
           backgroundColor: Color(0xFF011589),
           title: Text(

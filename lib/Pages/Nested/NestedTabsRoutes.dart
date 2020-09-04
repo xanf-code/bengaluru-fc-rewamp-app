@@ -151,7 +151,7 @@ class _TabsCategoriesState extends State<TabsCategories>
                 ),
                 child: Container(
                   height: 25,
-                  width: MediaQuery.of(context).size.width * .3,
+                  width: MediaQuery.of(context).size.width * .4,
                   decoration: BoxDecoration(
                     color: Colors.black12,
                     borderRadius: BorderRadius.circular(5),
